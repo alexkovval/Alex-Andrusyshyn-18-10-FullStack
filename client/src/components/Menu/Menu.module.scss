@@ -1,0 +1,28 @@
+.menuDiv {
+    width: 30%;
+    border-left: 5px solid rgba(125, 179, 189, 0.288);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    scroll-behavior: smooth;
+    overflow-y: scroll;
+
+    .text {
+        margin-top: 0;
+        color: rgb(145, 192, 211);
+    }
+
+    .divCityName {
+        font-size: 25px;
+        margin: 10px;
+    }
+
+    .clickedCityName {
+        text-decoration: underline 2px rgb(88, 211, 223);
+    }
+
+    .citiesH {
+        color: rgb(20, 129, 143);
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+}

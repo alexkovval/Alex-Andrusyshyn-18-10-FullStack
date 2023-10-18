@@ -1,0 +1,20 @@
+.div {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.secondDiv {
+    width: 30%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.button {
+    text-decoration: none;
+    background-color: rgb(60, 157, 189);
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+}
